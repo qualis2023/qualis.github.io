@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Ajusta el ancho máximo según tus preferencias */
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.carousel {
+    display: flex;
+    transition: 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ajusta el comportamiento de escalado de las imágenes */
+}
+
